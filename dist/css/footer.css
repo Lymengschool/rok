@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    background-color: #112442;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .rokftlogo {
+        color: #FFFEF9;
+        font-family: Righteous;
+        font-size: 50px;
+        font-weight: 400;
+        margin: 30px 0 15px 0;
+    }
+
+    .copyright{
+        color: #FFFEF9;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    span {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 30px;
+
+        a {
+            color: #FFFEF9;
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 500;
+            text-decoration-line: underline;
+        }
+    }    
+}

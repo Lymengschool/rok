@@ -1,0 +1,21 @@
+.actions {
+    background: none;
+}
+
+td {
+    .form-selecth {
+        background: none;
+        border: none;
+        color: #112442; /* Default text color */
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .form-selecth option {
+        color: #112442; /* Text color when an option is selected */
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+    }
+}

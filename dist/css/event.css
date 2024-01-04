@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.box-center {
+    display: flex;
+    justify-content: center;
+}
+.width1236 {
+    width: 1236px;
+}
+.start {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.end {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.flexrow {
+    display: flex;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.pointsection {
+    color: #112442;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 0;
+}
+.textdescription {
+    color: #112442;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+}
+.top30{
+    margin-top: 30px;
+}
+
+.c-head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    .eventtitle {
+        color: #112442;
+        font-family: Montserrat;
+        font-size: 45px;
+        font-weight: 700;
+        width: 1236px;
+        margin-left: 0px;
+    }
+    .piccover 
+        #piccover {
+            width: 1236px;
+            height: 500px;
+            border-radius: 10px;
+        }
+        .sharesaveinfo {
+            position: relative;
+            width: 1236px;
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+            bottom: 60px;
+            right: 20px;
+        }
+}
+.row1
+    .containeritems {
+        .organizerpf {
+            width: 50px;
+            height: 50px;
+        }
+        span {
+            margin-bottom: -10px;
+            margin-left: 15px;
+            .orgb {
+                color: #112442;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-weight: 600;
+                margin-bottom: -55px;
+            }
+            .shinnyballz {
+                color: #112442;
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 700;
+                margin-left: 0px;
+            }
+        }
+    }
+.row2 {
+    .width1236 
+        .eventdetail{
+            margin-top: 10px;
+            .redletter {
+                margin-left: 15px;
+                margin-bottom: 0px;
+            }
+        }
+}
+.row4
+    .width1236
+        .flexrow
+            .textdescription {
+                margin-left: 15px;
+                margin-bottom: 0px;
+            }
+.row5
+    .width1236
+        .blockspeaker {
+                gap: 45px;
+                .listspeaker {
+                    padding: 30px;
+                    border-radius: 10px;
+                    background: #F5F5F2;
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                    h1 {
+                        color: #112442;
+                        font-family: Inter;
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+                    p {
+                        color: #112442;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+        }
+.row6
+    .width1236
+        .blocksponser {
+            gap: 55px;
+            .img-click-more {
+                img {
+                    margin-bottom: -110px;
+                }
+                .more1 {
+                    margin-top: -90px;
+                    a {
+                        
+                        background-color: rgba(196, 196, 196, 0.70);
+                        border-radius: 200px;
+                        padding: 75px 45px;
+                        color: #686F7B;
+                        text-decoration: none;  
+                        font-family: Inter;
+                        font-size: 35px;
+                        font-weight: 700;             ;
+                    }
+                }
+            }
+        }
+.row7 
+    .width1236
+        .photoblock {
+            gap: 30px;
+            .photoblock3 img:nth-child(1), .photoblock4 img:nth-child(1) {
+                margin-bottom: 30px;
+            }
+            .photoblock4
+                .more2 {
+                    margin-top: -85px;
+                    a {
+                        margin-top: -100px;
+                        border-radius: 10px;
+                        padding: 53px 62px;
+                        background-color: rgba(196, 196, 196, 0.70);
+                        color: #686F7B;
+                        font-family: Inter;
+                        font-size: 35px;
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+                }
+        }
+.row8 {
+    margin-bottom: 50px;
+    .width1236 {
+        gap: 40px;
+        .boxright
+            .top30  
+                iframe {
+                    width: 700px;
+                    height: 640px;
+                    border-radius: 10px;
+                }
+        .boxleft
+            .boxleftinfo{
+                border-radius: 10px;
+                background: #F5F5F2;
+                padding: 15px;
+                .flexrow 
+                    .userinfo {
+                        margin-left: 15px;
+                        margin-top: 5px;
+                    }
+                .textdescription2 {
+                    color: #112442;
+                    font-family: Inter;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+                .btn-owner {
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+                    .contactowner, .followowner
+                        a, a {
+                            font-family: Inter;
+                            font-size: 25px;
+                            font-weight: 600;
+                            text-decoration: none;
+                            border-radius: 10px;
+                        }
+                    .contactowner 
+                        a {
+                            padding: 10px 25px;
+                            color: #112442;
+                            border: 2px solid #112442;
+                        }
+                    .followowner
+                        a {
+                            padding: 10px 25px;
+                            color: #F5F5F2;
+                            border: 2px solid #112442;
+                            background-color: #112442;
+                        }
+                }
+            }
+    } 
+}

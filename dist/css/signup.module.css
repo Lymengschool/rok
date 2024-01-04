@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Righteous&display=swap');
+
+.signupbody {
+  background-image: url("../img/background.svg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fffef9;
+  background-attachment: fixed;
+}
+
+.containers {
+  margin-left: 40%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step1 {
+  width: 110%;
+}
+
+.h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #112442;
+  margin-bottom: 2rem;
+}
+
+.font {
+  color: #112442;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.infoimg {
+  width: 0.78125rem;
+  height: 0.78125rem;
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+}
+
+.label {
+  color: #596679;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1rem;
+}
+
+.passlabel {
+  margin-left: 0.5rem;
+}
+
+.star {
+  color: red;
+}
+
+.form_control {
+  border-radius: 0.625rem;
+  border: solid #596679;
+  height: 2.5rem;
+  background-color: inherit;
+  margin-bottom: -10px;
+}
+
+.password_wrapper {
+  position: relative;
+}
+
+.password_wrapper .visibility {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.email_input {
+  padding-left: 2.5rem;
+  background-image: url("../../img/mail.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+form #first,
+form #last {
+  background-image: url("../../img/person.svg");
+  padding-left: 2.5rem;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+::placeholder {
+  color: #88919e;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.set_btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+form .button {
+  width: 12rem;
+  height: 2.8rem;
+  background-color: inherit;
+  color: #112442;
+  border: 2px solid #112442;
+  border-radius: 0.5rem;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+form .button:hover {
+  background-color: #112442;
+  color: #fffef9;
+}
+
+.signup {
+  color: #88919e;
+  font-family: Inter;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.signup a {
+  color: #ef6153;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 0.2rem;
+}
+
+.orSignUp {
+  text-align: center;
+  color: #596679;
+  font-family: Inter;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.externalLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #88919e;
+  color: #596679;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.externalLogin .img {
+  vertical-align: middle;
+  width: 1.8rem;
+  height: 1.8rem;
+  flex-shrink: 0;
+  margin-left: 0.7rem;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.step2_container {
+  margin-top: 13rem;
+  font-family: Inter;
+  color: #112442;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step2 h1 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+form .logo, .step2 .logo{
+  display: none;
+  color: #112442;
+  font-family: 'Righteous', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.step2 p {
+  display: flex;
+  justify-content: left;
+  width: 27rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.step2 p span img,
+#close-button {
+  cursor: pointer;
+}
+
+.step2 .set_btn {
+  margin-top: -1rem;
+  width: 27rem;
+}
+
+.step2 .set_btn .button,
+.step2 a {
+  width: 13rem;
+  height: 3rem;
+}
+
+.step2 a {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 27rem;
+  color: #fffef9;
+  background-color: #112442;
+  border-radius: 0.625rem;
+  flex-shrink: 0;
+}
+
+.step2 button img {
+  width: 3rem;
+  height: 2rem;
+}
+
+.step2 button:hover {
+  background-color: #112442;
+  color: #fffef9;
+}
+
+.step2 button:hover img {
+  filter: brightness(0%) invert(1);
+}
+
+.step2 .popup_container {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.step2 #popup_image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.step2 .close_button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  margin-left: 349px;
+  margin-top: -210px;
+}
+
+/* -------------------------------Step 3 and 4------------------------------------- */
+
+.step3_container,
+.step4_container {
+  width: 60%;
+  margin-left: 10rem;
+}
+
+.step3 .h1,
+.step4 .h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.8em;
+  color: #112442;
+}
+
+.step3 .h2,
+.step4 .h2 {
+  color: #112442;
+  font-size: 1.25em;
+  font-weight: 700;
+  width: 25em;
+  margin-top: 1.8em;
+  font-family: "Inter", sans-serif;
+  margin-right: 3.4em;
+}
+
+.step3 .date,
+.step3 .li,
+.step4 .date,
+.step4 .li {
+  display: flex;
+}
+
+.step3 .select,
+.step3 .input,
+.step4 .select,
+.step4 .input {
+  margin: 0 10px;
+  border-radius: 0.625rem;
+  border: 2px solid #596679;
+  background-color: inherit;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+.step3 select:nth-child(1),
+.step4 select:nth-child(1) {
+  width: 20.3%;
+}
+
+.step3 select:nth-child(2),
+.step4 select:nth-child(2) {
+  width: 39%;
+}
+
+.step3 select:nth-child(3),
+.step4 select:nth-child(3) {
+  width: 35%;
+}
+
+.step3 .input,
+.step4 .input {
+  width: 100%;
+}
+
+.passContainer {
+  margin-left: 0.6rem;
+  width: 100%;
+}
+
+.step3 .btn_container,
+.step4 .btn_container {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.step3 .button,
+.step3 .a,
+.step4 .button,
+.step4 .a {
+  width: 12.1rem;
+  height: 2.8rem;
+  background-color: inherit;
+  color: #112442;
+  border: 2px solid #112442;
+  border-radius: 0.5rem;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.step3 .a,
+.step4 .a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step3 .button:hover,
+.step3 .a:hover,
+.step4 .button:hover,
+.step4 .a:hover {
+  background-color: #112442;
+  color: #fffef9;
+}
+
+@media (max-width: 400px) {
+  .signupbody {
+    background-image: none;
+  }
+
+  .containers {
+    align-items: normal;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .step1 {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  form .button {
+    width: 45%;
+  }
+
+  .h1 {
+    font-weight: 600;
+  }
+
+  .step2_container {
+    padding: 0.5rem;
+  }
+
+  .step2 h1 {
+    font-size: 2.5rem;
+  }
+
+  .step2 .set_btn,
+  .step2 p,
+  .step2 a {
+    width: 100%;
+  }
+
+  .step2 .set_btn {
+    flex-direction: column;
+  }
+
+  .step2 .set_btn .button {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .step3_container,
+  .step4_container {
+    padding: 0.5rem;
+  }
+
+  .step3_container,
+  .step4_container,
+  .step3 .btn_container,
+  .step4 .btn_container,
+  .passContainer {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .step3 .h2,
+  .step4 .h2 {
+    width: 100%;
+    margin-right: 120rem;
+  }
+
+  .step3 .select,
+  .step3 .input,
+  .step4 .select,
+  .step4 .input {
+    margin: 0;
+  }
+
+  .step3 select:nth-child(1),
+  .step4 select:nth-child(1),
+  .step3 select:nth-child(2),
+  .step4 select:nth-child(2) {
+    margin-right: 0.5rem;
+  }
+
+  .step3 .button,
+  .step3 .a,
+  .step4 .button,
+  .step4 .a {
+    width: 10rem;
+  }
+
+  form .logo, .step2 .logo{
+    display: block;
+  }
+}
+
+/* Extra small devices  */
+@media (min-width: 400px) and (max-width: 600px) {
+  .signupbody {
+    background-image: none;
+  }
+
+  .containers {
+    align-items: normal;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .step1 {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .step2_container {
+    padding: 0.5rem;
+  }
+
+  .previous_btn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+  }
+
+  .step2 .set_btn,
+  .step2 p,
+  .step2 a {
+    width: 100%;
+  }
+
+  .step2 .set_btn .button {
+    width: 12rem;
+  }
+
+  .step3_container,
+  .step4_container {
+    padding: 0.5rem;
+  }
+
+  .step3_container,
+  .step4_container,
+  .step3 .btn_container,
+  .step4 .btn_container,
+  .passContainer {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .step3 .h2,
+  .step4 .h2 {
+    width: 100%;
+    margin-right: 120rem;
+  }
+
+  .step3 .select,
+  .step3 .input,
+  .step4 .select,
+  .step4 .input {
+    margin: 0;
+  }
+
+  .step3 select:nth-child(1),
+  .step4 select:nth-child(1),
+  .step3 select:nth-child(2),
+  .step4 select:nth-child(2) {
+    margin-right: 1rem;
+  }
+
+  .h1 {
+    font-weight: 600;
+  }
+
+  form .logo, .step2 .logo{
+    display: block;
+    font-size: 4rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones) */
+@media (min-width: 600px) and (max-width: 900px) {
+  .signupbody {
+    background-image: none;
+  }
+
+  .containers {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .step1 {
+    width: 110%;
+  }
+
+  .step2 .set_btn,
+  .step2 p,
+  .step2 a {
+    width: 110%;
+  }
+
+  .h1 {
+    font-weight: 600;
+  }
+
+  form .logo{
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .signupbody {
+    background-image: none;
+  }
+
+  .containers {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .step1 {
+    width: 110%;
+  }
+}

@@ -1,0 +1,23 @@
+.flexrow {
+    display: flex;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.startpoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.centerpoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.endpoint {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: auto;
+    height: 83px;
+    background: #112442;
+    font-family: Inter;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.navItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItems ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Add this line */
+}
+
+.navItems ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    color: #FFFEF9;
+    font-family: 'Righteous', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 65px;
+    text-decoration: none;
+}
+
+
+.search-container form {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{
+    display: inline-block;
+    margin: 0;
+}
+
+.inputbar {
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #586579;
+    border: none;
+    background-image: url(../assets/search.svg);
+    background-position: 260px 12px; 
+    background-repeat: no-repeat;
+    padding: 13px 15px 13px 15px;
+    text-decoration: none;
+    caret-color: #b3b3b3;
+    color: #CFD2D4;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.inputbar:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+::placeholder{
+    color: #CFD2D4;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.myTickets{
+    display: flex;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.myTickets img{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.myTickets span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.notification img{
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    text-align: end;
+    margin-right: 65px;
+    
+}
+
+.profile .img-box {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.menu {
+    border-radius: 10px;
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 50px;
+    width: 350px;
+    min-height: 100px;
+    background: #112442;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 300ms;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+}
+
+/* menu links */
+
+.menu ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    margin: 0;
+    padding: 25px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+
+
+.menu ul .selections:hover {
+    background: #0f1d32;
+    border-radius: 10px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: #F5F5F2;
+    display: flex;
+    padding: 15px 20px;
+    justify-content: left;
+    gap: 15px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu ul li a span{
+    padding: 15px 20px;
+}
+
+.fullName{
+    color: #F5F5F2;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.role{
+    color: #F5F5F2;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.flexrow {
+    display: flex;
+    justify-content: start;
+}
+
+.flexcol {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.profileInMenu{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-modal input[type="text"] {
+    width: 70%;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 910px) {
+    input[type=text] {
+        background-image: none;
+    }
+
+    .search-modal {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .button-container {
+        width: 70%; /* Match the width of the input */
+        justify-content: space-evenly; /* Distribute buttons evenly */
+    }
+    .button-container button {
+        margin-bottom: 20px;
+    }
+}
